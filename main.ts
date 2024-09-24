@@ -27,7 +27,7 @@ if (massDictionary.value === null) {
     const energy = mass * (SPEED_OF_LIGHT ** 2)
 
     // output
-    console.log(`${mass}kg of mass would produce ${energy}J of energy.`)
+    console.log(`${mass}kg of mass would produce ${energy.toExponential()}J of energy.`)
   }
 }
 
